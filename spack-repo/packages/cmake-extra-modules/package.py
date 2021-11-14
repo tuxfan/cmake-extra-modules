@@ -5,7 +5,9 @@
 
 from spack import *
 
-class CMakeExtraModules(CMakePackage):
+class CmakeExtraModules(CMakePackage):
     '''CMake modules for projects that have not yet adopted modern CMake.'''
-    homepage = 'http://github.com:cmake-extra-modules.git'
-    git      = 'http://github.com:cmake-extra-modules/cmake-extra-modules.git'
+    homepage = 'https://tuxfan.github.io/cmake-extra-modules'
+    git      = 'https://github.com/tuxfan/cmake-extra-modules.git'
+
+    version('develop', branch='develop')

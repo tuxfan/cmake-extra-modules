@@ -1,1 +1,1 @@
-list(APPEND CMAKE_MODULE_PATH @CMAKE_INSTALL_PREFIX@/CMakeExtraModules/cmake)
+list(APPEND CMAKE_MODULE_PATH @CMAKE_INSTALL_PREFIX@/share/CMakeExtraModules/cmake)
