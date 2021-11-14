@@ -1,3 +1,5 @@
+message(STATUS "Found CMakeExtraModules (Appending CMAKE_MODULE_PATH): "
+  "@CMAKE_INSTALL_PREFIX@/share/CMakeExtraModules/cmake")
 list(APPEND CMAKE_MODULE_PATH
   @CMAKE_INSTALL_PREFIX@/share/CMakeExtraModules/cmake
 )
