@@ -1,0 +1,5 @@
+message(STATUS "Found LANLCMakeModules (Appending CMAKE_MODULE_PATH): "
+  "@CMAKE_INSTALL_PREFIX@/share/LANLCMakeModules/cmake")
+list(APPEND CMAKE_MODULE_PATH
+  @CMAKE_INSTALL_PREFIX@/share/LANLCMakeModules/cmake
+)

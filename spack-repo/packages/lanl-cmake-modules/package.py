@@ -5,7 +5,7 @@
 
 from spack import *
 
-class CmakeExtraModules(CMakePackage):
+class LanlCmakeModules(CMakePackage):
     '''CMake modules for projects that have not yet adopted modern CMake.'''
     homepage = 'https://tuxfan.github.io/lanl-cmake-modules'
     git      = 'https://github.com/tuxfan/lanl-cmake-modules.git'

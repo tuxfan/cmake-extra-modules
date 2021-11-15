@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.12...3.21.4)
-project(CMakeExtraModules)
+project(LANLCMakeModules)
 
-configure_file(${CMAKE_SOURCE_DIR}/config/CMakeExtraModulesConfig.cmake.in
-  ${CMAKE_BINARY_DIR}/CMakeExtraModulesConfig.cmake)
+configure_file(${CMAKE_SOURCE_DIR}/config/LANLCMakeModulesConfig.cmake.in
+  ${CMAKE_BINARY_DIR}/LANLCMakeModulesConfig.cmake)
 
-install(FILES ${CMAKE_BINARY_DIR}/CMakeExtraModulesConfig.cmake
-  DESTINATION ${CMAKE_INSTALL_PREFIX}/share/CMakeExtraModules)
+install(FILES ${CMAKE_BINARY_DIR}/LANLCMakeModulesConfig.cmake
+  DESTINATION ${CMAKE_INSTALL_PREFIX}/share/LANLCMakeModules)
 install(
   DIRECTORY ${PROJECT_SOURCE_DIR}/cmake
-  DESTINATION ${CMAKE_INSTALL_PREFIX}/share/CMakeExtraModules
+  DESTINATION ${CMAKE_INSTALL_PREFIX}/share/LANLCMakeModules
   )
