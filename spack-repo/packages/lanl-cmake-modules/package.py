@@ -7,7 +7,7 @@ from spack import *
 
 class CmakeExtraModules(CMakePackage):
     '''CMake modules for projects that have not yet adopted modern CMake.'''
-    homepage = 'https://tuxfan.github.io/cmake-extra-modules'
-    git      = 'https://github.com/tuxfan/cmake-extra-modules.git'
+    homepage = 'https://tuxfan.github.io/lanl-cmake-modules'
+    git      = 'https://github.com/tuxfan/lanl-cmake-modules.git'
 
     version('develop', branch='develop')
