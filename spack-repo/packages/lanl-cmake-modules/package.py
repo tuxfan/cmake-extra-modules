@@ -5,9 +5,13 @@
 
 from spack import *
 
+
 class LanlCmakeModules(CMakePackage):
-    '''CMake modules for projects that have not yet adopted modern CMake.'''
-    homepage = 'https://tuxfan.github.io/lanl-cmake-modules'
-    git      = 'https://github.com/tuxfan/lanl-cmake-modules.git'
+    '''CMake modules for projects that have not yet adopted modern CMake.
+    '''
+
+    maintainers = ['tuxfan']
+    homepage = 'https://lanl.github.io/cmake-modules'
+    git      = 'https://github.com/lanl/cmake-modules.git'
 
     version('develop', branch='develop')
